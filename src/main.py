@@ -22,8 +22,6 @@ def create_food(snake, box):
 
 
 
-
-
 def main(stdscr: "curses._CursesWindow") -> None:
     curses.curs_set(0)
     stdscr.nodelay(True)
